@@ -1,0 +1,24 @@
+.contact .card ul{
+    list-style:none;
+}
+.contact .card ul
+.contact .card ul li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.contact .card ul li{
+    margin-bottom:10px;
+}
+.contact .card ul li:last-child{
+    margin-bottom:0;
+}
+
+.contact form{
+    background:#FFF;
+}
+
+.contact .btn{
+    background:cadetblue;
+    border-color:cadetblue;
+}
