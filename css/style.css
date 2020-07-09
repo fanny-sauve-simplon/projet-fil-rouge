@@ -8,7 +8,7 @@ html{
 }
 body{
   height:100%;
-  background-image:url('../img/parallax1.jpg');
+  background:url('../img/parallax1.jpg');
   background-repeat:no-repeat;
   background-size:100% auto;
   background-attachment:fixed;
@@ -31,8 +31,12 @@ header{
     margin:0;
     padding:0;
 }
+.img-circle{
+  display:flex;
+  align-content: flex-end;
+}
 .index-title h1{
-  padding:3em 2em;
+  padding:2em 0.5em;
 }
 .index-title span,
 .page-title span {
@@ -41,34 +45,29 @@ header{
   font-size:30px;
   font-weight:bold;
 }
-.row1,
-.row2{
+.row2,
+.row3{
   margin-bottom:20px;
   color:#333;
-  padding: 0em 5em 3em 5em;
 }
 
-.row1 .card,
-.row2 .card {
+.row2 .card,
+.row3 .card {
   height:auto;
   opacity:0.9;
 }
-.row1 .card i{
+.row2 .card i{
   font-size:20px !important;
   margin-right:5px;
 }
-.row2 .card i{
+.row3 .card i{
   font-size:35px !important;
   display:block;
 }
-.row1 .card .card-title{
+.row2 .card .card-title{
   padding:20px 0 0 0;
 }
-h5{
-  font-weight: bolder;
-  color:#03989E;
-  font-size: 2em;
-}
+
 .logojaune{
   height:2em;
   position:relative;
@@ -76,12 +75,10 @@ h5{
   margin-right:4px;
 }
 footer{
-  background:cadetblue;
+  background:rgba(95, 158, 160, 0.9);
   color:#FFF;
   margin-top:40px;
   padding-bottom:20px;
-  padding-left: 5em;
-  padding-right: 5em;
 }
 footer dl,
 footer dt,
@@ -92,7 +89,7 @@ footer dd ul li{
   padding:0;
 }
 footer dl{
-  padding:0 40px;
+  padding:0 30px;
 }
 footer dt{
   padding:20px 0;
@@ -115,29 +112,3 @@ footer dd ul li a:hover,
 footer dd ul li a:focus{
   color:#333;
 }
-/*
-h1.page-title{
-  text-align:center;
-}
-h1.page-title span{
-  background:cadetblue;
-  color:#FFF;
-  font-weight:bold;
-}
-
- @media screen and (max-width: 800px) {
-  body{
-    background-size:auto 100%;
-  }
-
-  .index-title h1{
-    padding:20px 0;
-  }
-  .index-title span {
-    font-size:24px;
-  }
-
-  .row1 .col-md-4,
-  .row2 .col-md-4{
-    margin-bottom:20px;
-  } */
